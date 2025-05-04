@@ -1,0 +1,21 @@
+#waterSourceResults li {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.safe {
+    background-color: #e6ffe6; /* Light green */
+    color: #008000; /* Green */
+}
+
+.moderate {
+    background-color: #fffacd; /* Light yellow */
+    color: #daa520; /* Goldenrod */
+}
+
+.unsafe {
+    background-color: #ffe0e0; /* Light red */
+    color: #ff0000; /* Red */
+}

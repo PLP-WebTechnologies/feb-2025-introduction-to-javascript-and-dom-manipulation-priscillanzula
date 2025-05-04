@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Zuri - Check Water Safety</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Check Water Safety Near You</h1>
+    </header>
+
+    <main>
+        <section id="locationInput">
+            <label for="location">Enter City or Region:</label>
+            <input type="text" id="location" name="location">
+            <button id="checkLocationBtn">Check</button>
+        </section>
+
+        <section id="waterSourceResults">
+            <h2>Nearby Water Sources</h2>
+            <ul id="waterSourceList">
+            </ul>
+            <p id="noResults" style="display:none;">No water sources found for this location.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aqua Zuri</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
